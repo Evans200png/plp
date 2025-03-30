@@ -17,7 +17,7 @@ def read_modify_file():
         with open(new_filename, "w") as new_file:
             new_file.write(modified_content)
         
-        print(f"Modified content written to {new_filename} ✅")
+        print(f"Modified content written to {new_filename} ")
 
     except FileNotFoundError:
         print("Error: The file does not exist! ‼️")
